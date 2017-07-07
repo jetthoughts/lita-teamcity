@@ -1,0 +1,3 @@
+<% @projects.each do |project| %>
+<<%= project.webUrl %>|<%= CGI::escapeHTML(project.name) %>> 
+<% end %>

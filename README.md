@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/jetthoughts/lita-teamcity.png?branch=master)](https://travis-ci.org/jetthoughts/lita-teamcity)
 [![Coverage Status](https://coveralls.io/repos/jetthoughts/lita-teamcity/badge.png)](https://coveralls.io/r/jetthoughts/lita-teamcity)
+[![Gem Version](https://badge.fury.io/rb/lita-teamcity.svg)](https://badge.fury.io/rb/lita-teamcity)
 
 Communicate with TeamCity via Chat
 
