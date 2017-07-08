@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-teamcity"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Michael Nikitochkin"]
   spec.email         = ["miry.sof@gmail.com"]
   spec.description   = "Communicate with TeamCity REST API"
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 4.7"
-  spec.add_runtime_dependency "teamcity", ">= 1.3.1"
+  spec.add_runtime_dependency "teamcity", ">= 1.3.2"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "pry-byebug"
