@@ -9,7 +9,7 @@ module Lita
 
       route(/^teamcity\s+projects(\s+(.+))?/, :projects, command: true, help: { "teamcity projects [KEY]" => "List of TeamCity projects." })
       route(/^teamcity\s+builds(\s+(.+))?/, :builds, command: true, help: { "teamcity builds [KEY]" => "List of TeamCity builds." })
-      route(/^teamcity\s+build\s+(.+)/, :build, command: true, help: { "teamcity build <buildtype_id>" => "Trigger a build for buildtype_id." })
+      route(/^teamcity\s+build\s+(.+)/, :build, command: true, help: { "teamcity build <buildtype_id> [branch_name]" => "Trigger a build for buildtype_id." })
       
       def projects(response)
         message = {
